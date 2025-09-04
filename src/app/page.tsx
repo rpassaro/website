@@ -31,7 +31,7 @@ export default function Page() {
               </h1>
               <div className="flex items-center gap-4 md:ml-auto">
                 <img
-                  src="/headshot.JPG"
+                  src="/headshot.jpg"
                   alt="Headshot of Ryan Passaro"
                   width={96}
                   height={96}
