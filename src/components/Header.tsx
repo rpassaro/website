@@ -7,9 +7,7 @@ export default function Header() {
             <div className="mx-auto flex max-w-5xl items-center justify-end px-6 py-4">
                 <div className="flex items-center gap-4">
                     <a
-                        href="mailto:passaroryan@gmail.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href="/email"
                         title="Email me"
                         className="text-white/70 transition hover:text-[var(--accent)] hover:drop-shadow-[0_0_6px_var(--accent)]"
                     >

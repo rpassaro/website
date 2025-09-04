@@ -8,7 +8,7 @@ const items = [
         period: "Jan 2025 – Present",
         highlights: [
             "Engineered Flask REST API to execute broker orders with sub-second latency.",
-            "Built secure PostgreSQL backend (AES-256, JWT), SOC-2 ready, zero incidents.",
+            "Built secure PostgreSQL backend (AES-256, JWT Auth), zero incidents.",
             "Parallelized orchestration with Python multiprocessing to reduce latency.",
             "Developed real-time broker sync scripts cutting reconciliation work by 90%.",
             "Scaled SaaS to 500+ subscribers, growing new user adoption 254% in 3 months.",

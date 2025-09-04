@@ -27,7 +27,7 @@ export default function Page() {
             that ship reliably at scale.
           </h1>
           <p className="mt-4 max-w-2xl text-white/80">
-            Flask/React SaaS, broker orchestration, SOC-2-ready auth, OCR pipelines, and
+            Flask/React SaaS, broker orchestration, JWT Auth, OCR pipelines, and
             GCP workloads — with measurable impact.
           </p>
           <div className="mt-6 flex gap-3">
