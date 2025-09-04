@@ -1,10 +1,11 @@
 "use client";
 import { LazyMotion, domAnimation, m } from "framer-motion";
-import { ArrowRight, Terminal, Mail, Github, Linkedin } from "lucide-react";
+import { ArrowRight, Terminal, Github, Linkedin } from "lucide-react";
 import Link from "next/link";
 import Timeline from "@/components/Timeline";
 import Projects from "@/components/Projects";
 import Education from "@/components/Education";
+import EmailCTA from "@/components/EmailCTA";
 
 export default function Page() {
   return (
@@ -44,12 +45,7 @@ export default function Page() {
               >
                 Resume <ArrowRight className="ml-1 inline h-4 w-4" />
               </Link>
-              <a
-                href="mailto:passaroryan@gmail.com"
-                className="rounded-xl border border-white/15 px-3 py-2 text-white/90 hover:border-white/25 inline-flex items-center gap-2"
-              >
-                <Mail className="h-4 w-4 text-[var(--accent)]" /> Email
-              </a>
+              <EmailCTA />
               <a
                 href="https://github.com/rpassaro/website"
                 target="_blank"

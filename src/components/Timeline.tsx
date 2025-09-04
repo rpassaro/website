@@ -52,7 +52,7 @@ export default function Timeline() {
                             viewport={{ once: true }}
                             className="relative mb-10 ml-6 transform-gpu will-change-transform"
                         >
-                            <div className="absolute -left-3 top-[10px] h-3.5 w-3.5 rounded-full border border-[var(--accent)] bg-[var(--bg)]" />
+                            <div className="absolute -left-6 top-3 h-3.5 w-3.5 rounded-full border border-[var(--accent)] bg-[var(--bg)]" />
                             <h3 className="text-xl font-semibold">
                                 {item.role} · <span className="text-white/70">{item.company}</span>
                             </h3>

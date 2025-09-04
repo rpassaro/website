@@ -74,10 +74,11 @@ body {
 /* Ensure list bullets do not overlap text when custom markers are used nearby */
 ul {
   list-style-position: outside;
+  margin-left: 1.25rem;
 }
 
 li {
-  padding-left: 0.25rem;
+  padding-left: 0.125rem;
 }
 
 /* Space-tech stars background layering */
