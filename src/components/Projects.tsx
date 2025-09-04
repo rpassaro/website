@@ -4,14 +4,10 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
     {
-        title: "Trading Infra Platform",
-        description: "Low-latency execution pipeline using Flask, TCP, and GCP.",
-        href: "/projects/trading-infra",
-    },
-    {
-        title: "OCR Pipeline & Forecasting",
-        description: "End-to-end OCR pipelines + ML forecasting with Python.",
-        href: "/projects/ocr-forecast",
+        title: "Machine Learning Sports Forecasting (2024)",
+        description:
+            "Trained XGBoost model with temporal backtesting, boosting accuracy by 20%. Automated ingestion/maintenance for 2M+ records (Python, SQLite, REST APIs).",
+        href: "/projects/ml-sports-forecasting",
     },
 ];
 

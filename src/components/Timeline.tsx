@@ -3,23 +3,44 @@ import { motion } from "framer-motion";
 
 const items = [
     {
-        role: "Software Engineer",
-        company: "Proprietary Trading Firm",
-        period: "2023 – Present",
+        role: "Co-Founder & CTO",
+        company: "Taking Prophets",
+        period: "Jan 2025 – Present",
         highlights: [
-            "Shipped low-latency trading infra with sub-second execution",
-            "Broker orchestration + risk systems",
-            "SOC-2 ready authentication",
+            "Engineered Flask REST API to execute broker orders with sub-second latency.",
+            "Built secure PostgreSQL backend (AES-256, JWT), SOC-2 ready, zero incidents.",
+            "Parallelized orchestration with Python multiprocessing to reduce latency.",
+            "Developed real-time broker sync scripts cutting reconciliation work by 90%.",
+            "Scaled SaaS to 500+ subscribers, growing new user adoption 254% in 3 months.",
         ],
     },
     {
-        role: "Software Engineer",
-        company: "ScraperAPI",
-        period: "2022 – 2023",
+        role: "Software Engineering Intern",
+        company: "Archaide",
+        period: "Dec 2024 – May 2025",
         highlights: [
-            "Scaled SaaS from thousands to millions of API requests/day",
-            "OCR pipelines with Tesseract & Python",
-            "Forecasting models with ML",
+            "Deployed trading algorithms (Python, C++, JavaScript) with Interactive Brokers & Alpaca APIs, sustaining 99% uptime.",
+            "Designed order-management pipelines with error handling & reconciliation.",
+            "Integrated risk safeguards (position limits, kill-switches, rollbacks).",
+            "Automated onboarding workflows (Zapier + CRM), reducing manual work by 80%.",
+        ],
+    },
+    {
+        role: "Software Engineering Intern",
+        company: "Quiver Quantitative",
+        period: "Mar 2024 – Aug 2024",
+        highlights: [
+            "Built OCR pipeline (Python + Tesseract) parsing thousands of filings at 95%+ accuracy.",
+            "Optimized preprocessing to reduce latency 30% and error rates.",
+            "Migrated workloads to GCP (Cloud Functions, BigQuery), boosting throughput 4× with auto-scaling.",
+        ],
+    },
+    {
+        role: "Education",
+        company: "University of Texas at Austin",
+        period: "B.S. Computer Science & B.S. Economics — Expected May 2026",
+        highlights: [
+            "GPA: 3.3/4.0",
         ],
     },
 ];
