@@ -1,13 +1,26 @@
+import Image from "next/image";
+import uiImage from "./takingprophets_ui.png";
+
 export default function TakingProphetsPage() {
     return (
         <section className="mx-auto max-w-5xl px-6 py-16">
             <h1 className="text-3xl font-bold text-[var(--accent)]">Taking Prophets — Multi-Broker Order Routing with Sub-Second Latency</h1>
 
+            <div className="mt-6 overflow-hidden rounded-xl border border-white/10 bg-[var(--surface)]/40">
+                <Image
+                    src={uiImage}
+                    alt="Taking Prophets application UI"
+                    priority
+                    sizes="(min-width: 1024px) 960px, 100vw"
+                    className="h-auto w-full"
+                />
+            </div>
+
             <div className="mt-6 space-y-8 text-white/85">
                 <div>
                     <h2 className="text-xl font-semibold text-white">TL;DR</h2>
                     <p className="mt-2">
-                        I built a production API that routes orders across multiple broker integrations with sub-second p50 latency and resilient failover. It handles concurrent position updates, account metadata, and order lifecycle events with [p95 latency ≈ X ms] and [Y req/s] sustained.
+                        I built a production API that routes orders across multiple broker integrations with sub-second p50 latency and resilient failover. It handles concurrent position updates, account metadata, and order lifecycle events with low latency and sustained high throughput.
                     </p>
                 </div>
 
@@ -74,7 +87,7 @@ export default function TakingProphetsPage() {
 
                 <div>
                     <h2 className="text-xl font-semibold text-white">Stack</h2>
-                    <p className="mt-2">Python, Flask, PostgreSQL, Redis</p>
+                    <p className="mt-2">Python, Flask, PostgreSQL, React, HTML5</p>
                 </div>
             </div>
         </section>
