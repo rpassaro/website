@@ -44,7 +44,7 @@ export default function Page() {
               GCP workloads — with measurable impact.
             </p>
             <p className="mt-2 max-w-3xl text-white/70">
-              I’m an early-career software engineer focused on delivering impact. I learn fast, ship reliably, and leave teams stronger. I’m here to move the needle and have a positive impact on those around me.
+              I’m an early-career software engineer focused on delivering impact. I learn fast, ship reliably, and make teams stronger. I’m here to move the needle and have a positive impact on those around me.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
