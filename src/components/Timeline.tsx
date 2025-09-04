@@ -39,7 +39,7 @@ const items = [
 
 export default function Timeline() {
     return (
-        <section className="mx-auto max-w-4xl px-6 py-16">
+        <section id="experience" className="mx-auto max-w-4xl px-6 py-16">
             <h2 className="mb-10 text-3xl font-bold text-[var(--accent)]">Experience</h2>
             <div className="relative border-l border-white/10">
                 {items.map((item, i) => (
@@ -66,7 +66,7 @@ export default function Timeline() {
                                         href="/takingprophets"
                                         className="mt-2 inline-block rounded-md border border-white/15 px-3 py-1 text-sm text-white/90 hover:border-[var(--accent)] hover:text-[var(--accent)]"
                                     >
-                                        Case Study →
+                                        Taking Prophets case study →
                                     </a>
                                 </li>
                             )}
@@ -76,7 +76,7 @@ export default function Timeline() {
                                         href="/archaide"
                                         className="mt-2 inline-block rounded-md border border-white/15 px-3 py-1 text-sm text-white/90 hover:border-[var(--accent)] hover:text-[var(--accent)]"
                                     >
-                                        Case Study →
+                                        Archaide case study →
                                     </a>
                                 </li>
                             )}
@@ -86,7 +86,7 @@ export default function Timeline() {
                                         href="/quiver"
                                         className="mt-2 inline-block rounded-md border border-white/15 px-3 py-1 text-sm text-white/90 hover:border-[var(--accent)] hover:text-[var(--accent)]"
                                     >
-                                        Case Study →
+                                        Quiver case study →
                                     </a>
                                 </li>
                             )}

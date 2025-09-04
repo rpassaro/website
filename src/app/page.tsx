@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { ArrowRight, Terminal } from "lucide-react";
+import { ArrowRight, Terminal, Mail, Github, Linkedin } from "lucide-react";
 import Link from "next/link";
 import Timeline from "@/components/Timeline";
 import Projects from "@/components/Projects";
@@ -30,19 +30,42 @@ export default function Page() {
             Flask/React SaaS, broker orchestration, JWT Auth, OCR pipelines, and
             GCP workloads — with measurable impact.
           </p>
-          <div className="mt-6 flex gap-3">
+          <div className="mt-6 flex flex-wrap gap-3">
             <a
-              href="#projects"
+              href="#experience"
               className="glow rounded-xl bg-[var(--accent)] px-4 py-2 font-medium text-black transition hover:opacity-90"
             >
               See my work
             </a>
-            <Link
-              href="/resume"
+            <a
+              href="/resume.pdf"
+              download
               className="rounded-xl border border-white/15 px-4 py-2 font-medium text-white/90 hover:border-white/25"
             >
-              Resume <ArrowRight className="ml-1 inline h-4 w-4" />
-            </Link>
+              Download Résumé (PDF) <ArrowRight className="ml-1 inline h-4 w-4" />
+            </a>
+            <a
+              href="mailto:passaroryan@gmail.com"
+              className="rounded-xl border border-white/15 px-3 py-2 text-white/90 hover:border-white/25 inline-flex items-center gap-2"
+            >
+              <Mail className="h-4 w-4 text-[var(--accent)]" /> Email
+            </a>
+            <a
+              href="https://github.com/rpassaro/website"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl border border-white/15 px-3 py-2 text-white/90 hover:border-white/25 inline-flex items-center gap-2"
+            >
+              <Github className="h-4 w-4 text-[var(--accent)]" /> GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ryan-passaro/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl border border-white/15 px-3 py-2 text-white/90 hover:border-white/25 inline-flex items-center gap-2"
+            >
+              <Linkedin className="h-4 w-4 text-[var(--accent)]" /> LinkedIn
+            </a>
           </div>
         </motion.div>
       </section>

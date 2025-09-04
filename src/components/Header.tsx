@@ -14,7 +14,7 @@ export default function Header() {
                         <Mail className="h-5 w-5" />
                     </a>
                     <a
-                        href="https://github.com/rpassaro/website"
+                        href="https://github.com/rpassaro"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-white/70 transition hover:text-[var(--accent)] hover:drop-shadow-[0_0_6px_var(--accent)]"

@@ -65,8 +65,8 @@ export default function TakingProphetsPage() {
                 <div>
                     <h2 className="text-xl font-semibold text-white">Results</h2>
                     <ul className="mt-2 list-disc space-y-2 pl-5">
-                        <li>Latency: p50 [~.8s], p95 [~2s]. Uptime: &gt;99%</li>
-                        <li>User impact: 16 connected accounts, 100% satisfaction rate;</li>
+                        <li>Latency: &lt;1s p50, ~2s p95; Uptime: 99%+</li>
+                        <li>Users: 16 connected accounts</li>
                     </ul>
                 </div>
 
