@@ -1,13 +1,13 @@
 export default function QuiverPage() {
     return (
         <section className="mx-auto max-w-5xl px-6 py-16">
-            <h1 className="text-3xl font-bold text-[var(--accent)]">Quiver — OCR &amp; Document Ingestion at Scale</h1>
+            <h1 className="text-3xl font-bold text-[var(--accent)]">Quiver Quantitative — OCR &amp; Document Ingestion at Scale</h1>
 
             <div className="mt-6 space-y-8 text-white/85">
                 <div>
                     <h2 className="text-xl font-semibold text-white">TL;DR</h2>
                     <p className="mt-2">
-                        Re-architected an OCR pipeline for mixed-layout docs (statements, tables, multi-column PDFs). Achieved higher accuracy and lower latency via preprocessing, layout-aware parsing, and scalable workers on [GCP/AWS], delivering [~4×] throughput and [–30%] median latency.
+                        Re-architected an OCR pipeline for SEC-compliant government trade filings. Achieved higher accuracy and lower latency via preprocessing, layout-aware parsing, and scalable workers on [GCP/AWS], delivering [~4×] throughput and [–30%] median latency.
                     </p>
                 </div>
 
