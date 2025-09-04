@@ -3,11 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import dynamic from "next/dynamic";
-const SpaceTechBackground = dynamic(() => import("@/components/SpaceTechBackground"), {
-  ssr: false,
-  loading: () => null,
-});
+import SpaceTechBackgroundClient from "@/components/SpaceTechBackgroundClient";
 import { ThemeProvider } from "next-themes";
 
 const geistSans = Geist({
@@ -35,7 +31,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-dvh bg-[var(--bg)] text-[var(--text)]`}>
         <ThemeProvider attribute="class" defaultTheme="dark">
           <div className="relative bg-aurora min-h-dvh flex flex-col">
-            <SpaceTechBackground />
+            <SpaceTechBackgroundClient />
             <Header />
             <main className="relative main-content flex-1">{children}</main>
             <Footer />
