@@ -29,7 +29,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-dvh bg-[var(--bg)] text-[var(--text)]`}>
         <ThemeProvider attribute="class" defaultTheme="dark">
-          <div className="relative">
+          <div className="relative bg-aurora">
             <div className="pointer-events-none fixed inset-0 bg-grid opacity-40" />
             <Header />
             <main className="relative">{children}</main>

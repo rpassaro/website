@@ -21,7 +21,7 @@ export default function Page() {
             Software Engineer — Trading Infra & ML
           </span>
           <h1 className="mt-3 text-4xl font-semibold tracking-tight md:text-6xl">
-            Hi, I&apos;m <span className="text-[var(--accent)]">Ryan Passaro</span>,
+            Hi, I&apos;m <span className="text-[var(--accent)]">Ryan Passaro</span>.
             <br />
             I build <span className="text-[var(--accent)]">low-latency</span> systems
             that ship reliably at scale.
@@ -32,7 +32,7 @@ export default function Page() {
           </p>
           <div className="mt-6 flex gap-3">
             <a
-              href="/work"
+              href="#projects"
               className="glow rounded-xl bg-[var(--accent)] px-4 py-2 font-medium text-black transition hover:opacity-90"
             >
               See my work

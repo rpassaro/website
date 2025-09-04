@@ -28,3 +28,45 @@ body {
 .glow {
   box-shadow: 0 0 0.5rem var(--accent), inset 0 0 0.5rem transparent;
 }
+
+/* Aurora background */
+:root {
+  --a: 99 102 241;
+  /* indigo */
+  --b: 16 185 129;
+  /* teal */
+  --c: 255 180 80;
+  /* warm */
+}
+
+.bg-aurora::before {
+  content: "";
+  position: fixed;
+  inset: -40vmax;
+  background:
+    radial-gradient(45vmax 35vmax at 10% 20%, rgb(var(--a) / .14), transparent 60%),
+    radial-gradient(35vmax 25vmax at 90% 10%, rgb(var(--b) / .14), transparent 60%),
+    radial-gradient(50vmax 30vmax at 40% 90%, rgb(var(--c) / .14), transparent 60%);
+  filter: blur(40px) saturate(120%);
+  animation: drift 28s ease-in-out infinite alternate;
+  z-index: -1;
+  pointer-events: none;
+}
+
+@keyframes drift {
+  to {
+    transform: translate3d(8%, -6%, 0) rotate(2deg);
+  }
+}
+
+/* optional grid sheen */
+.bg-aurora::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 1px 1px, rgba(255, 255, 255, .05) 1px, transparent 0) 0 0/22px 22px,
+    linear-gradient(180deg, rgba(255, 255, 255, .06), transparent 40%);
+  mix-blend-mode: overlay;
+}
