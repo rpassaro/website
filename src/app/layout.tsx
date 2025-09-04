@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import SpaceTechBackground from "@/components/SpaceTechBackground";
 import { ThemeProvider } from "next-themes";
 
 const geistSans = Geist({
@@ -30,9 +31,9 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-dvh bg-[var(--bg)] text-[var(--text)]`}>
         <ThemeProvider attribute="class" defaultTheme="dark">
           <div className="relative bg-aurora">
-            <div className="pointer-events-none fixed inset-0 bg-grid opacity-40" />
+            <SpaceTechBackground />
             <Header />
-            <main className="relative">{children}</main>
+            <main className="relative main-content">{children}</main>
             <Footer />
           </div>
         </ThemeProvider>
