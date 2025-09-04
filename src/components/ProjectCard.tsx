@@ -13,6 +13,10 @@ type Project = {
 function ProjectCardImpl({ project }: { project: Project }) {
     return (
         <m.div
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.35 }}
+            viewport={{ once: true, margin: "-10% 0% -10% 0%" }}
             whileHover={{ scale: 1.02 }}
             className="rounded-xl border border-white/10 bg-[var(--surface)] p-6 backdrop-blur hover:border-[var(--accent)] transition transform-gpu will-change-transform"
         >
