@@ -1,5 +1,5 @@
 "use client";
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 export default function Footer() {
     return (
@@ -16,8 +16,7 @@ export default function Footer() {
                         className="text-white/70 transition hover:text-[var(--accent)] hover:drop-shadow-[0_0_6px_var(--accent)]"
                         title="Email me"
                     >
-                        {/* simple text to keep spacing consistent */}
-                        <span className="inline-block">Email</span>
+                        <Mail className="h-5 w-5" />
                     </a>
                     <a
                         href="https://github.com/rpassaro"

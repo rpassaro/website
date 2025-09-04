@@ -10,7 +10,7 @@ export default function Education() {
             <div className="rounded-xl border border-white/10 bg-[var(--surface)] p-6 backdrop-blur">
                 <h3 className="text-xl font-semibold">University of Texas at Austin</h3>
                 <p className="text-white/70">B.S. Computer Science & B.S. Economics — Expected May 2026</p>
-                <p className="mt-2 text-white/80">GPA: 3.3/4.0</p>
+                {/* GPA removed per request */}
             </div>
         </section>
     );

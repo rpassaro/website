@@ -5,6 +5,20 @@ export default function QuiverPage() {
 
             <div className="mt-6 space-y-8 text-white/85">
                 <div>
+                    <h2 className="text-xl font-semibold text-white">Results</h2>
+                    <ul className="mt-2 list-disc space-y-2 pl-5">
+                        <li>Throughput: 4× increase</li>
+                        <li>Latency: –30% median</li>
+                        <li>Accuracy: 95%+ extraction</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 className="text-xl font-semibold text-white">Stack</h2>
+                    <p className="mt-2">Python, GCP Vision/OCR, Tesseract, SQL Database</p>
+                </div>
+
+                <div>
                     <h2 className="text-xl font-semibold text-white">TL;DR</h2>
                     <p className="mt-2">
                         Re-architected an OCR pipeline for SEC-compliant government trade filings. Achieved higher accuracy and lower latency via preprocessing, layout-aware parsing, and scalable workers on GCP, delivering 4× throughput and –30% median latency.
@@ -39,13 +53,7 @@ export default function QuiverPage() {
                     </ul>
                 </div>
 
-                <div>
-                    <h2 className="text-xl font-semibold text-white">Results</h2>
-                    <ul className="mt-2 list-disc space-y-2 pl-5">
-                        <li>Accuracy: 95%+ extraction accuracy.</li>
-                        <li>Latency: 3× faster end-to-end processing.</li>
-                    </ul>
-                </div>
+
 
                 <div>
                     <h2 className="text-xl font-semibold text-white">Key Decisions</h2>
@@ -63,10 +71,7 @@ export default function QuiverPage() {
                     </ul>
                 </div>
 
-                <div>
-                    <h2 className="text-xl font-semibold text-white">Stack</h2>
-                    <p className="mt-2">Python, GCP Vision/OCR, Tesseract, SQL Database</p>
-                </div>
+
             </div>
         </section>
     );

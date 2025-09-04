@@ -8,6 +8,18 @@ export default function TakingProphetsPage() {
 
             <div className="mt-6 space-y-8 text-white/85">
                 <div>
+                    <h2 className="text-xl font-semibold text-white">Results</h2>
+                    <ul className="mt-2 list-disc space-y-2 pl-5">
+                        <li>Latency: &lt;1s p50, ~2s p95; Uptime: 99%+</li>
+                        <li>Users: 16 connected accounts</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 className="text-xl font-semibold text-white">Stack</h2>
+                    <p className="mt-2">Python, Flask, PostgreSQL, React, HTML5</p>
+                </div>
+                <div>
                     <h2 className="text-xl font-semibold text-white">TL;DR</h2>
                     <p className="mt-2">
                         I built a production API that routes orders across multiple broker integrations with sub-second p50 latency and resilient failover. It handles concurrent position updates, account metadata, and order lifecycle events with low latency and sustained high throughput.
@@ -62,13 +74,7 @@ export default function TakingProphetsPage() {
                     </ul>
                 </div>
 
-                <div>
-                    <h2 className="text-xl font-semibold text-white">Results</h2>
-                    <ul className="mt-2 list-disc space-y-2 pl-5">
-                        <li>Latency: &lt;1s p50, ~2s p95; Uptime: 99%+</li>
-                        <li>Users: 16 connected accounts</li>
-                    </ul>
-                </div>
+
 
                 <div>
                     <h2 className="text-xl font-semibold text-white">Key Decisions</h2>
@@ -88,10 +94,7 @@ export default function TakingProphetsPage() {
                     </ul>
                 </div>
 
-                <div>
-                    <h2 className="text-xl font-semibold text-white">Stack</h2>
-                    <p className="mt-2">Python, Flask, PostgreSQL, React, HTML5</p>
-                </div>
+
             </div>
         </section>
     );

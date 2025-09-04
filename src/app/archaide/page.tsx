@@ -5,6 +5,20 @@ export default function ArchaidePage() {
 
             <div className="mt-6 space-y-8 text-white/85">
                 <div>
+                    <h2 className="text-xl font-semibold text-white">Results</h2>
+                    <ul className="mt-2 list-disc space-y-2 pl-5">
+                        <li>Latency: &lt;1s submit→ack</li>
+                        <li>Uptime: 99%+ live trading</li>
+                        <li>Ops: Faster onboarding with Zapier automation</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 className="text-xl font-semibold text-white">Stack</h2>
+                    <p className="mt-2">Python, C++, JavaScript/Node, Docker, IBKR API, Alpaca REST, Zapier</p>
+                </div>
+
+                <div>
                     <h2 className="text-xl font-semibold text-white">TL;DR</h2>
                     <p className="mt-2">
                         Built and shipped equities &amp; derivatives trading algorithms with sub-second REST integrations to Interactive Brokers and Alpaca. Designed a production OMS (Python/C++/JavaScript) with robust error handling, reconciliation, and real-time feedback loops; added risk safeguards (position limits, kill-switch, automated rollbacks). Also automated lead-capture and onboarding with Zapier to cut manual ops and boost conversion.
@@ -46,14 +60,7 @@ export default function ArchaidePage() {
                     <p className="mt-2">Strategies → Risk Gate → Order Router/OMS → Broker Adapters (IBKR/Alpaca)</p>
                 </div>
 
-                <div>
-                    <h2 className="text-xl font-semibold text-white">Results</h2>
-                    <ul className="mt-2 list-disc space-y-2 pl-5">
-                        <li>Latency: &lt; 1s end-to-end order-submit-to-ack.</li>
-                        <li>Uptime: 99%+ live-trading availability.</li>
-                        <li>Ops: Zapier integration drastically reduced manual effort and improved client sign-up and retention.</li>
-                    </ul>
-                </div>
+
 
                 <div>
                     <h2 className="text-xl font-semibold text-white">Key Decisions</h2>
@@ -75,10 +82,7 @@ export default function ArchaidePage() {
                     </ul>
                 </div>
 
-                <div>
-                    <h2 className="text-xl font-semibold text-white">Stack</h2>
-                    <p className="mt-2">Python, C++, JavaScript/Node, Docker, IBKR API, Alpaca REST, Zapier</p>
-                </div>
+
             </div>
         </section>
     );
