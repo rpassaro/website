@@ -28,14 +28,14 @@ export const metadata: Metadata = {
     title: "Ryan Passaro — Trading Infra & ML Engineer",
     description: "Low-latency systems, reliable at scale. p50 ~0.8s; 500+ users.",
     siteName: "Ryan Passaro",
-    images: [{ url: "/og", width: 1200, height: 630, alt: "Ryan Passaro — Trading Infra & ML Engineer" }],
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Ryan Passaro — Trading Infra & ML Engineer" }],
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
     title: "Ryan Passaro — Trading Infra & ML Engineer",
     description: "Low-latency systems, reliable at scale. p50 ~0.8s; 500+ users.",
-    images: ["/og"],
+    images: ["/opengraph-image"],
   },
   icons: { icon: "/favicon.ico" },
 };
