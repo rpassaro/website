@@ -21,6 +21,8 @@ export default function Page() {
             Software Engineer — Trading Infra & ML
           </span>
           <h1 className="mt-3 text-4xl font-semibold tracking-tight md:text-6xl">
+            Hi, I'm <span className="text-[var(--accent)]">Ryan Passaro</span>,
+            <br />
             I build <span className="text-[var(--accent)]">low-latency</span> systems
             that ship reliably at scale.
           </h1>

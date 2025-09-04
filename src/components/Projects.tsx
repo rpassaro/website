@@ -7,7 +7,13 @@ const projects = [
         title: "Machine Learning Sports Forecasting (2024)",
         description:
             "Trained XGBoost model with temporal backtesting, boosting accuracy by 20%. Automated ingestion/maintenance for 2M+ records (Python, SQLite, REST APIs).",
-        href: "/projects/ml-sports-forecasting",
+        href: "https://github.com/rpassaro/MLB-AI-MODEL",
+    },
+    {
+        title: "Personal Website (2025)",
+        description:
+            "Built a personal website using Next.js and React.js.",
+        href: "https://github.com/rpassaro/website",
     },
 ];
 
