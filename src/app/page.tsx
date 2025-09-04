@@ -31,7 +31,7 @@ export default function Page() {
               </h1>
               <div className="flex items-center gap-4 md:ml-auto">
                 <img
-                  src="/headshot.jpg"
+                  src="/headshot.JPG"
                   alt="Headshot of Ryan Passaro"
                   width={96}
                   height={96}
@@ -44,9 +44,7 @@ export default function Page() {
               GCP workloads — with measurable impact.
             </p>
             <p className="mt-2 max-w-3xl text-white/70">
-              I’m a software engineer focused on trading infrastructure and ML-backed systems. I care about
-              measurable impact: faster execution, tighter tails, and clean operational stories. I’m seeking roles where
-              I can own reliability and speed for systems that move money.
+              I’m an early-career software engineer focused on delivering impact. I learn fast, ship reliably, and leave teams stronger. I’m here to move the needle and have a positive impact on those around me.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
