@@ -10,7 +10,7 @@ export default function TakingProphetsPage() {
                 <div>
                     <h2 className="text-xl font-semibold text-white">Results</h2>
                     <ul className="mt-2 list-disc space-y-2 pl-5">
-                        <li>Latency: &lt;1s p50, ~2s p95; Uptime: 99%+</li>
+                        <li>Latency: &lt;1s (p50), ~2s (p95); Uptime: 99%+</li>
                         <li>Users: 16 connected accounts</li>
                     </ul>
                 </div>
@@ -55,7 +55,7 @@ export default function TakingProphetsPage() {
                             <div className="overflow-hidden rounded-xl border border-white/10 bg-[var(--surface)]/40 max-w-md md:ml-auto">
                                 <Image
                                     src={uiImage}
-                                    alt="Taking Prophets application UI: order routing dashboard screenshot"
+                                    alt="Screenshot of Taking Prophets order routing dashboard showing multi-broker order flow"
                                     priority
                                     sizes="(min-width: 1024px) 480px, 90vw"
                                     className="h-auto w-full"

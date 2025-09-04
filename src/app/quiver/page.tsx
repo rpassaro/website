@@ -8,7 +8,7 @@ export default function QuiverPage() {
                     <h2 className="text-xl font-semibold text-white">Results</h2>
                     <ul className="mt-2 list-disc space-y-2 pl-5">
                         <li>Throughput: 4× increase</li>
-                        <li>Latency: –30% median</li>
+                        <li>Latency: –30% (median)</li>
                         <li>Accuracy: 95%+ extraction</li>
                     </ul>
                 </div>

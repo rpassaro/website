@@ -22,15 +22,31 @@ export default function Page() {
               <Terminal className="h-4 w-4 text-[var(--accent)]" />
               Software Engineer — Trading Infra & ML
             </span>
-            <h1 className="mt-3 text-4xl font-semibold tracking-tight md:text-6xl">
-              Hi, I&apos;m <span className="text-[var(--accent)]">Ryan Passaro</span>.
-              <br />
-              I build <span className="text-[var(--accent)]">low-latency</span> systems
-              that ship reliably at scale.
-            </h1>
+            <div className="mt-3 flex w-full flex-col items-start gap-6 md:flex-row md:items-center">
+              <h1 className="text-4xl font-semibold tracking-tight md:text-6xl">
+                Hi, I&apos;m <span className="text-[var(--accent)]">Ryan Passaro</span>.
+                <br />
+                I build <span className="text-[var(--accent)]">low-latency</span> systems
+                that ship reliably at scale.
+              </h1>
+              <div className="flex items-center gap-4 md:ml-auto">
+                <img
+                  src="/headshot.jpg"
+                  alt="Headshot of Ryan Passaro"
+                  width={96}
+                  height={96}
+                  className="h-20 w-20 rounded-full border border-white/15 object-cover"
+                />
+              </div>
+            </div>
             <p className="mt-4 max-w-2xl text-white/80">
               Flask/React SaaS, broker orchestration, JWT Auth, OCR pipelines, and
               GCP workloads — with measurable impact.
+            </p>
+            <p className="mt-2 max-w-3xl text-white/70">
+              I’m a software engineer focused on trading infrastructure and ML-backed systems. I care about
+              measurable impact: faster execution, tighter tails, and clean operational stories. I’m seeking roles where
+              I can own reliability and speed for systems that move money.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
