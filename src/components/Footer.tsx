@@ -10,6 +10,16 @@ export default function Footer() {
                 </span>
                 <div className="flex gap-4">
                     <a
+                        href={`https://mail.google.com/mail/?view=cm&fs=1&to=passaroryan@gmail.com&su=${encodeURIComponent("Hello Ryan")}&body=${encodeURIComponent("Saw your site and wanted to connect.")}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white/70 transition hover:text-[var(--accent)] hover:drop-shadow-[0_0_6px_var(--accent)]"
+                        title="Email me"
+                    >
+                        {/* simple text to keep spacing consistent */}
+                        <span className="inline-block">Email</span>
+                    </a>
+                    <a
                         href="https://github.com/rpassaro"
                         target="_blank"
                         rel="noopener noreferrer"

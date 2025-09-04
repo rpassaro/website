@@ -7,8 +7,10 @@ export default function Header() {
             <div className="mx-auto flex max-w-5xl items-center justify-end px-6 py-4">
                 <div className="flex items-center gap-4">
                     <a
-                        href="/email"
+                        href={`https://mail.google.com/mail/?view=cm&fs=1&to=passaroryan@gmail.com&su=${encodeURIComponent("Hello Ryan")}&body=${encodeURIComponent("Saw your site and wanted to connect.")}`}
                         title="Email me"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="text-white/70 transition hover:text-[var(--accent)] hover:drop-shadow-[0_0_6px_var(--accent)]"
                     >
                         <Mail className="h-5 w-5" />
