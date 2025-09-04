@@ -8,7 +8,7 @@ const projects = [
         description:
             "Built with Next.js (App Router) + React + TypeScript; styled with Tailwind and animated with Framer Motion. Includes a custom canvas parallax stars background and theme switching via next-themes; deployed on Vercel.",
         href: "https://github.com/rpassaro/website",
-    }
+    },
     {
         title: "Machine Learning Sports Forecasting (2024)",
         description:
