@@ -71,6 +71,15 @@ body {
   mix-blend-mode: overlay;
 }
 
+/* Ensure list bullets do not overlap text when custom markers are used nearby */
+ul {
+  list-style-position: outside;
+}
+
+li {
+  padding-left: 0.25rem;
+}
+
 /* Space-tech stars background layering */
 .space-bg {
   position: fixed;
