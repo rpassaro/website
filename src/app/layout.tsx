@@ -30,10 +30,10 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-dvh bg-[var(--bg)] text-[var(--text)]`}>
         <ThemeProvider attribute="class" defaultTheme="dark">
-          <div className="relative bg-aurora">
+          <div className="relative bg-aurora min-h-dvh flex flex-col">
             <SpaceTechBackground />
             <Header />
-            <main className="relative main-content">{children}</main>
+            <main className="relative main-content flex-1">{children}</main>
             <Footer />
           </div>
         </ThemeProvider>
