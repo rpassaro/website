@@ -70,6 +70,16 @@ export default function Timeline() {
                                     </a>
                                 </li>
                             )}
+                            {items[1] === item && (
+                                <li>
+                                    <a
+                                        href="/archaide"
+                                        className="mt-2 inline-block rounded-md border border-white/15 px-3 py-1 text-sm text-white/90 hover:border-[var(--accent)] hover:text-[var(--accent)]"
+                                    >
+                                        Case Study →
+                                    </a>
+                                </li>
+                            )}
                             {items[2] === item && (
                                 <li>
                                     <a
