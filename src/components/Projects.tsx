@@ -19,7 +19,7 @@ const projects = [
 
 export default function Projects() {
     return (
-        <section id="projects" className="mx-auto max-w-5xl px-6 py-16">
+        <section id="projects" className="mx-auto max-w-5xl px-6 py-16" style={{ contentVisibility: "auto", containIntrinsicSize: "1px 800px" }}>
             <h2 className="mb-10 text-3xl font-bold text-[var(--accent)]">Projects</h2>
             <div className="grid gap-8 md:grid-cols-2">
                 {projects.map((p, i) => (

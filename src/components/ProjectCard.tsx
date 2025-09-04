@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { memo } from "react";
+import { m } from "framer-motion";
 
 type Project = {
     title: string;
@@ -9,11 +10,11 @@ type Project = {
     href: string;
 };
 
-export default function ProjectCard({ project }: { project: Project }) {
+function ProjectCardImpl({ project }: { project: Project }) {
     return (
-        <motion.div
+        <m.div
             whileHover={{ scale: 1.02 }}
-            className="rounded-xl border border-white/10 bg-[var(--surface)] p-6 backdrop-blur hover:border-[var(--accent)] transition"
+            className="rounded-xl border border-white/10 bg-[var(--surface)] p-6 backdrop-blur hover:border-[var(--accent)] transition transform-gpu will-change-transform"
         >
             <h3 className="text-xl font-semibold">{project.title}</h3>
             <p className="mt-2 text-white/80">{project.description}</p>
@@ -23,8 +24,11 @@ export default function ProjectCard({ project }: { project: Project }) {
             >
                 View project →
             </Link>
-        </motion.div>
+        </m.div>
     );
 }
+
+const ProjectCard = memo(ProjectCardImpl);
+export default ProjectCard;
 
 

@@ -3,7 +3,11 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import SpaceTechBackground from "@/components/SpaceTechBackground";
+import dynamic from "next/dynamic";
+const SpaceTechBackground = dynamic(() => import("@/components/SpaceTechBackground"), {
+  ssr: false,
+  loading: () => null,
+});
 import { ThemeProvider } from "next-themes";
 
 const geistSans = Geist({
