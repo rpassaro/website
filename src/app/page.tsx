@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Terminal } from "lucide-react";
 import Timeline from "@/components/Timeline";
+import Projects from "@/components/Projects";
 
 export default function Page() {
   return (
@@ -42,6 +43,7 @@ export default function Page() {
         </motion.div>
       </section>
       <Timeline />
+      <Projects />
     </>
   );
 }
