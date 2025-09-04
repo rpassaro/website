@@ -8,6 +8,9 @@ export default function Header() {
                 <div className="flex items-center gap-4">
                     <a
                         href="mailto:passaroryan@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="Email me"
                         className="text-white/70 transition hover:text-[var(--accent)] hover:drop-shadow-[0_0_6px_var(--accent)]"
                     >
                         <Mail className="h-5 w-5" />
