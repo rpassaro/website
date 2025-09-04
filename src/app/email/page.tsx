@@ -11,7 +11,7 @@ export default function EmailPage() {
                 >
                     passaroryan@gmail.com
                 </a>
-                ,
+                !
             </p>
         </section>
     );
