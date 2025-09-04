@@ -35,14 +35,6 @@ const items = [
             "Migrated workloads to GCP (Cloud Functions, BigQuery), boosting throughput 4× with auto-scaling.",
         ],
     },
-    {
-        role: "Education",
-        company: "University of Texas at Austin",
-        period: "B.S. Computer Science & B.S. Economics — Expected May 2026",
-        highlights: [
-            "GPA: 3.3/4.0",
-        ],
-    },
 ];
 
 export default function Timeline() {

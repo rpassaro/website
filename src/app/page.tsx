@@ -1,8 +1,10 @@
 "use client";
 import { motion } from "framer-motion";
 import { ArrowRight, Terminal } from "lucide-react";
+import Link from "next/link";
 import Timeline from "@/components/Timeline";
 import Projects from "@/components/Projects";
+import Education from "@/components/Education";
 
 export default function Page() {
   return (
@@ -33,17 +35,18 @@ export default function Page() {
             >
               See my work
             </a>
-            <a
+            <Link
               href="/resume"
               className="rounded-xl border border-white/15 px-4 py-2 font-medium text-white/90 hover:border-white/25"
             >
               Resume <ArrowRight className="ml-1 inline h-4 w-4" />
-            </a>
+            </Link>
           </div>
         </motion.div>
       </section>
       <Timeline />
       <Projects />
+      <Education />
     </>
   );
 }
