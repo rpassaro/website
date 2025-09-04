@@ -60,6 +60,16 @@ export default function Timeline() {
                             {item.highlights.map((h, j) => (
                                 <li key={j}>{h}</li>
                             ))}
+                            {items[0] === item && (
+                                <li>
+                                    <a
+                                        href="/takingprophets"
+                                        className="mt-2 inline-block rounded-md border border-white/15 px-3 py-1 text-sm text-white/90 hover:border-[var(--accent)] hover:text-[var(--accent)]"
+                                    >
+                                        Case Study →
+                                    </a>
+                                </li>
+                            )}
                         </ul>
                     </motion.div>
                 ))}
