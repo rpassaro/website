@@ -6,16 +6,6 @@ export default function TakingProphetsPage() {
         <section className="mx-auto max-w-5xl px-6 py-16">
             <h1 className="text-3xl font-bold text-[var(--accent)]">Taking Prophets — Multi-Broker Order Routing with Sub-Second Latency</h1>
 
-            <div className="mt-6 overflow-hidden rounded-xl border border-white/10 bg-[var(--surface)]/40">
-                <Image
-                    src={uiImage}
-                    alt="Taking Prophets application UI"
-                    priority
-                    sizes="(min-width: 1024px) 960px, 100vw"
-                    className="h-auto w-full"
-                />
-            </div>
-
             <div className="mt-6 space-y-8 text-white/85">
                 <div>
                     <h2 className="text-xl font-semibold text-white">TL;DR</h2>
@@ -41,13 +31,26 @@ export default function TakingProphetsPage() {
 
                 <div>
                     <h2 className="text-xl font-semibold text-white">What I Built</h2>
-                    <ul className="mt-2 list-disc space-y-2 pl-5">
-                        <li>Flask REST API exposing endpoints for auth, account sync, order create/cancel, and position introspection.</li>
-                        <li>Parallelized orchestration using Python multiprocessing + async I/O to fan out broker requests.</li>
-                        <li>Circuit-breaker + retry policies per broker to survive rate limits and transient 5xxs.</li>
-                        <li>Idempotency keys to make order creation safe on retries.</li>
-                        <li>Structured logging with correlation IDs → trace a single order across services.</li>
-                    </ul>
+                    <div className="mt-2 md:mt-3 md:grid md:grid-cols-2 md:gap-6">
+                        <ul className="list-disc space-y-2 pl-5">
+                            <li>Flask REST API exposing endpoints for auth, account sync, order create/cancel, and position introspection.</li>
+                            <li>Parallelized orchestration using Python multiprocessing + async I/O to fan out broker requests.</li>
+                            <li>Circuit-breaker + retry policies per broker to survive rate limits and transient 5xxs.</li>
+                            <li>Idempotency keys to make order creation safe on retries.</li>
+                            <li>Structured logging with correlation IDs → trace a single order across services.</li>
+                        </ul>
+                        <div className="mt-4 md:mt-0">
+                            <div className="overflow-hidden rounded-xl border border-white/10 bg-[var(--surface)]/40 max-w-md md:ml-auto">
+                                <Image
+                                    src={uiImage}
+                                    alt="Taking Prophets application UI"
+                                    priority
+                                    sizes="(min-width: 1024px) 480px, 90vw"
+                                    className="h-auto w-full"
+                                />
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div>
